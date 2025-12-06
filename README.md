@@ -58,7 +58,7 @@ A typical layout for this project looks like:
 ```text
 .
 ├─ domain.py          # BudgetPeriod, Transaction dataclasses
-├─ service.py         # BudgetService interface + your implementation
+├─ service.py         # BudgetService (backend controls)
 ├─ UI.py              # MainWindow, pages, dialogs, table models, filters (the large file you see here)
 ├─ APP.py            # App entry point that wires the service into the UI
 
